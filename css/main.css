@@ -1,0 +1,101 @@
+.header{
+  width: 1440px;
+
+}
+@font-face {
+  font-family: "Lato";
+  font-weight: 700;
+  src: url(../fonts/Lato-Bold.ttf);
+}
+.nav{
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  margin-top: 38px;
+  background-color: white;
+  margin-left: 120px;
+}
+.nav-list{
+  list-style: none;
+  margin-left: 720px;
+  margin-right: 120px;
+}
+.nav-list>.list-item{
+  display: inline-block;
+}
+.nav-list>.list-item>a{
+  text-decoration: none;
+  color: #003B66;
+  font-weight: 700;
+  padding-right: 36px;
+}
+#star{
+  padding-right: 5.7px;
+}
+.main{
+  display: flex;
+  margin-top: 158px;
+}
+.main>.card-1{
+  margin-top: 25px;
+  height: 555px;
+  padding-right: 15px;
+  margin-right: 113px;
+  background-color: #003B66;
+}
+.main>.card-2{
+  width: 610px;
+  height: 575px;
+}
+.main .card-2 .btn1{
+  width: 183px;
+  margin-right: 24px;
+  height: 56px;
+  cursor: pointer;
+  background: linear-gradient(264.88deg, #004A80 0.72%, #002C4D 99.28%);
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+}
+.mini-content .card-item-right{
+  margin-left: 39px;
+  margin-top: 8px;
+}
+.main .card-2 .btn-group{
+  margin-top: 89px;
+}
+.main .card-2 .btn2{
+  background-color: #fff;
+  width: 183px;
+  height: 56px;
+  cursor: pointer;
+  border: 1px solid #003B66;
+  border-radius: 4px;
+  color:#002C4D;
+  font-weight: 700;
+}
+.main .mini-content{
+  display: flex;
+}
+.main .mini-content .card-item p{
+  width: 405px;
+  margin-top: 28px;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 400;
+  color: #005999;
+}
+.main>.card-2>.span-text{
+  display: inline-block;
+  width: 615px;
+  font-family: "Lato";
+  line-height: 105.3px;
+  color: #003B66;
+  font-style: normal;
+  font-size: 90px;
+}
+#under{
+  padding-top: 30px;
+}
